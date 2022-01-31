@@ -9,15 +9,12 @@ If you are using it it's AT YOUR OWN RISK!
 *********************************************************************************
 
 Version 3.0
-
 Improved GUI
 Added an option to search by sender address and date range
 Fixed some minor bugs
 
 Version 2.0
-
 As Microsoft changed the search way I re-write the code. The code is now using the Office 365 Security & Compliance
-
 
 Version 1.1
 Check if the Exchange Online PowerShell using multi-factor authentication module is installed
@@ -25,16 +22,13 @@ Check if the Exchange Online PowerShell using multi-factor authentication module
 Version 1.0
 Inital release
 
-
-
 Prerequisite
 You should be a member os the member of the eDiscovery Manager role and the Organization Management groups
-
 
 How to use:
 Run the file and connect to the to 365
 
-![image](https://user-images.githubusercontent.com/71331120/151765804-1cab9cb2-466b-4b74-9eed-933fadf4cc26.png)
+![image](https://user-images.githubusercontent.com/71331120/151767754-f5045341-2f59-4abc-a9cc-b28278335d68.png)
 
 Type a name for the search job
 Choose the serach criteria
@@ -49,4 +43,6 @@ Click on search
 Once serach has been completed, click on the "Get a list of the affected mailboxes" button to see the affected maiboxes
 Once you review the mailboxes click on "Delete the emails" button
 When the deltetion process will be done a log file with results will open
+
+![image](https://user-images.githubusercontent.com/71331120/151767887-0eda8d27-c766-4386-9a96-f54a3bcde46d.png)
 
