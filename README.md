@@ -1,8 +1,12 @@
-# Remove-Malicious-Emails
+# 365_Remove-Malicious-Emails
 
 This tool will scan and delete a malcious email which have been hit your 365 mailboxes.
 It can scan and delete based on Sender name / Subject / Dates and you can choose on which mailboxes to serach.
 
+*********************************************************************************
+This script is provided AS-IS without any warranty to any damage that may occured.
+If you are using it it's AT YOUR OWN RISK!
+*********************************************************************************
 
 Version 3.0
 
@@ -20,3 +24,29 @@ Check if the Exchange Online PowerShell using multi-factor authentication module
 
 Version 1.0
 Inital release
+
+
+
+Prerequisite
+You should be a member os the member of the eDiscovery Manager role and the Organization Management groups
+
+
+How to use:
+Run the file and connect to the to 365
+
+![image](https://user-images.githubusercontent.com/71331120/151765804-1cab9cb2-466b-4b74-9eed-933fadf4cc26.png)
+
+Type a name for the search job
+Choose the serach criteria
+Fill up the fildes per the criteria you choosed
+
+"Recipient email address? (to search in all MB's type all)" - To which email address the malicious email was sent
+"Sender Email Address" - The sender email address
+"Email Subject" - what is the malicious email subject?
+"Days to search" - How many days back should I search?
+
+Click on search
+Once serach has been completed, click on the "Get a list of the affected mailboxes" button to see the affected maiboxes
+Once you review the mailboxes click on "Delete the emails" button
+When the deltetion process will be done a log file with results will open
+
