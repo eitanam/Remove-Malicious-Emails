@@ -32,8 +32,6 @@ You should be a member os the member of the eDiscovery Manager role and the Orga
 How to use:
 Run the file and connect to the to 365
 
-![image](https://user-images.githubusercontent.com/71331120/151767754-f5045341-2f59-4abc-a9cc-b28278335d68.png)
-
 Type a name for the search job
 Choose the serach criteria
 Fill up the fildes per the criteria you choosed
