@@ -8,6 +8,10 @@ This script is provided AS-IS without any warranty to any damage that may occure
 If you are using it it's AT YOUR OWN RISK!
 *********************************************************************************
 
+Version 3.1
+Removed the option to connect without MFA
+Updated the connection to V3
+
 Version 3.0
 Improved GUI
 Added an option to search by sender address and date range
